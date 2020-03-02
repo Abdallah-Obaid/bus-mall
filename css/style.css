@@ -30,14 +30,13 @@ body {
   }
  main section ul li img{
    width: 20%;
+   margin-top: 5%;
  } 
  main section ul li {
    display: inline;
   
  }
- /* main section ul {
-  border: 2px solid #FFC981;
-} */
+
  #top{
    float: right;
  }
@@ -57,16 +56,16 @@ body {
   }
 
  #lorem{
-   margin-top: 5%;
-   margin-left: 5%;
-   
-   float: right;
-   float: left;
-   text-align: center;
-   width: 700px;
-   height: 275px;
-   border: 2px solid #FFC981;
-   color: brown;
+  margin-top: 5%;
+  margin-left: 5%;
+  text-align: center;
+  width: 700px;
+  height: 275px;
+  border: 2px solid #FFC981;
+  color: brown;
+  position: absolute;
+  top: auto;
+  left: 25%;
  }
  
  footer{
