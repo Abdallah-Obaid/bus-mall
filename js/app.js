@@ -1,5 +1,5 @@
 //Global
-var productImg=['bag','banana','bathroom','boots','breakfast','bubblegum','chair','cthulhu','dog-duck','dragon','pen','pet-sweep','shark','sweep','tauntaun','unicorn','usb','water-can','wine-glass']
+var productImg=['bag.jpg','banana.jpg','bathroom.jpg','boots.jpg','breakfast.jpg','bubblegum.jpg','chair.jpg','cthulhu.jpg','dog-duck.jpg','dragon.jpg','pen.jpg','pet-sweep.jpg','shark.jpg','sweep.png','tauntaun.jpg','unicorn.jpg','usb.gif','water-can.jpg','wine-glass.jpg']
 var leftProImage = document.querySelector('#pro1img');
 var rightProImage = document.querySelector('#pro2img');
 var centerProImage = document.querySelector('#pro3img');
@@ -9,7 +9,7 @@ var totalClicks = 1
 
 function Products(name){
 this.name = name;
-this.urlImg = `img/${this.name}.jpg`;
+this.urlImg = `img/${this.name}`;
 this.totalClickspro = 0;
 this.totalCount = 0 ;
 product.push(this);//this its refer to the object that im created
